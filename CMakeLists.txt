@@ -15,9 +15,10 @@ add_executable(mod
         #        lib/shared_ptr.h
         #        lib/timer.cpp
         #        lib/timer.h
-        lib/ThreadPool.cpp
-        lib/ThreadPool.h
-        test_threadPool.cpp
+        #        lib/ThreadPool.cpp
+        #        lib/ThreadPool.h
+        #        test_threadPool.cpp
+                Thread.cpp
 )
 
 target_link_libraries(mod pthread)
